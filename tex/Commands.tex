@@ -1,0 +1,42 @@
+
+% COMPARISON TABLES
+% =================
+% The following commands are to be used in the comparison tables in the second chapter "literature review"
+
+% This command wraps a few other commands, which are commonly used to init the "table" environment. That is for 
+% example centering the content and setting row column spacing
+\newcommand{\tableConfig}{\centering \setlength{\tabcolsep}{8pt} \renewcommand*{\arraystretch}{1.3} \scriptsize}
+
+% A shorthand for the checkmark symbol, which is faster to write, because it is being used 
+% so much in the comparison tables
+\newcommand{\yes}{\checkmark}
+\newcommand{\nop}{ }
+\newcommand{\blank}{ }
+\newcommand{\sep}{\arrayrulecolor{black!10}\midrule\arrayrulecolor{black!100}}
+
+% All the following commands are ust wrapping a single symbol to be placed in the summarizing final table of the 
+% comparison.
+% I decided to use commands instead of the actual symbols for two reasons:
+% 1) The names of the commands are more expressive in the code, than just the symbols. Reading the Latex code, one can 
+% understand what the symbols stand for.
+% 2) If I ever decide to change the symbols at one point or even just tweak them in a little way then I will just have to 
+% do it here at this point and not search for all the usages throughout the code.
+
+\newcommand{\coopNode}{\space c}
+\newcommand{\coopMultiple}{\space C}
+
+\newcommand{\precNode}{\space p}
+\newcommand{\precMinMax}{\space P}
+
+\newcommand{\hetPreference}{\space h}
+\newcommand{\hetSkills}{\space H}
+
+\newcommand{\vrpLimited}{\space l}
+\newcommand{\vrpAll}{\space a}
+
+\newcommand{\twSoft}{\space t}
+
+\newcommand{\instanceSmall}{S}
+\newcommand{\instanceMedium}{M}
+\newcommand{\instanceLarge}{L}
+\newcommand{\instanceVeryLarge}{XL}

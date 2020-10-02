@@ -1,0 +1,69 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\contentsline {chapter}{List of Figures}{xv}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{xvii}{chapter*.5}%
+\contentsline {chapter}{Abbreviations and Symbols}{xix}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Aim}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Contribution}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Outline}{4}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Taxonomy of Multi-Robot Coordination Problems}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Taxonomy of Routing Problems}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Variants of the vehicle routing problem}{9}{subsection.2.2.1}%
+\contentsline {subsubsection}{Arc-routing problems}{11}{section*.9}%
+\contentsline {subsubsection}{Problems with profits}{11}{section*.10}%
+\contentsline {subsection}{\numberline {2.2.2}Synchronization in Vehicle Routing}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}VRP Taxonomies}{14}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Comparing MRTA and VRP taxonomies}{16}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Approaches for solving vehicle routing problems}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Metaheuristics}{18}{subsection.2.3.1}%
+\contentsline {subsubsection}{Single solution based}{20}{section*.13}%
+\contentsline {subsubsection}{Population based}{21}{section*.14}%
+\contentsline {subsubsection}{Hybrid metaheuristics}{23}{section*.15}%
+\contentsline {subsubsection}{Evaluation}{24}{section*.16}%
+\contentsline {subsection}{\numberline {2.3.2}Exact solution approaches}{24}{subsection.2.3.2}%
+\contentsline {subsubsection}{Branch-and-bound}{25}{section*.17}%
+\contentsline {subsubsection}{Evaluation}{26}{section*.19}%
+\contentsline {subsection}{\numberline {2.3.3}Interactive optimization}{27}{subsection.2.3.3}%
+\contentsline {subsubsection}{Evaluation}{31}{section*.21}%
+\contentsline {subsection}{\numberline {2.3.4}Others}{31}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Approaches for solving multi-robot coordination problems}{32}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Instantaneous assignment}{32}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Time-extended assignment}{32}{subsection.2.4.2}%
+\contentsline {subsubsection}{Exact solution approaches}{32}{section*.22}%
+\contentsline {section}{\numberline {2.5}Existing solutions}{33}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Comparison of selected approaches}{33}{subsection.2.5.1}%
+\contentsline {subsubsection}{Precedence and Cooperativity}{37}{section*.24}%
+\contentsline {subsubsection}{Heterogeneity}{37}{section*.26}%
+\contentsline {subsubsection}{Secondary Criteria}{38}{section*.28}%
+\contentsline {subsection}{\numberline {2.5.2}The case of exact methods}{38}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Evaluation}{38}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Complete Overview}{38}{subsection.2.5.4}%
+\contentsline {chapter}{\numberline {3}Theory}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Combinatorial Optimization}{41}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Mixed Integer Programming}{41}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Local Search in Routing}{41}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Evolutionary Algorithms}{41}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Computational Results}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Investigating the objective function}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Genetic Algorithm Improvements}{43}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Population Size}{43}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Select Operator}{43}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Construction Heuristic}{43}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Sensitivity Analysis}{43}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Problem Size}{43}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Cooperation Constraints}{44}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Precedence Constraints}{44}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Degree of Heterogeneity}{44}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Friedmann Test}{44}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Evaluation Criteria}{45}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Summary and Outlook}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Discussion}{47}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{48}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Future Work}{49}{section.5.3}%
+\contentsline {chapter}{\numberline {A}erster Anhang}{51}{appendix.A}%
+\contentsline {section}{\numberline {A.1}erste Untergliederung}{51}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Quellcodes}{51}{section.A.2}%
+\contentsline {chapter}{Bibliography}{I}{appendix*.31}%

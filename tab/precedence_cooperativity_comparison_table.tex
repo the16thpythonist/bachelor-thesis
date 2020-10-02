@@ -1,0 +1,157 @@
+% 26.05.2020
+% So here is what I have found out about these damned table environments in latex:
+% - Using the "supertabular" environment within a "table" does not work because 
+% supertabular is designed in a way, that supports line breaks, but the table does not support this at all and attempts to put the 
+% potentially two separate sections onto the same page. That causes a pretty big problem.
+% Although I did not test out what happens if I make an empty but otherwise staticly sized \tablehead to compensate the jankyness of 
+% the second part...
+% But its a good idea to just use supertabular within a "center" environment...
+% - The tabular environments using the asterisk at the end "supertabular*" and "tabular*" are designed to not have a fixed width.
+% They expect an additional parameter which will set this width \begin{supertabular}{\textwidth}{llc} for example
+% - This IRS latex template cannot use the package "xtabs", because the symbols page has been designed with supertabular and these 
+% two packages conflict with each other. And changing the symbols page would be way too much effort. So I will be stuck with 
+% supertabular..
+
+% Look at this resource if at any point there are problems with the center allignment of the items...
+% https://tex.stackexchange.com/questions/341205/what-is-the-difference-between-tabular-tabular-and-tabularx-environments
+\begin{table}[t]
+	\tableConfig
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccccc}
+		% BEGIN TableHead
+		\toprule
+		% FirstHeadRow
+		\multicolumn{1}{l}{} 								&
+		\multicolumn{4}{l}{Cooperativity} 					&
+		\multicolumn{3}{l}{Precedence} 						\\
+		\cmidrule(rl){2-5} \cmidrule(rl){6-8}
+		% SecondHeadRow		
+		\multicolumn{1}{l}{reference} 						&
+		\multicolumn{1}{l}{at all?} 						&
+		\multicolumn{1}{l}{between nodes?} 					&
+		\multicolumn{1}{l}{>2?} 							&
+		\multicolumn{1}{l}{Team building?} 					&
+		\multicolumn{1}{l}{at all?} 						&
+		\multicolumn{1}{l}{between nodes?} 					&
+		\multicolumn{1}{l}{$\delta_{min}, \delta_{max}$} 	\\
+		\midrule %
+		% END TableHead
+		%
+		% ------------------------------------------------------------------------------
+		%
+		% BEGIN TableContent
+		\cite{bredstromCombinedVehicleRouting2008a} & 
+			\yes & 
+			\yes & 
+			\yes &  
+			 & 
+			\yes & 
+			\yes & 
+			\yes \\
+		%
+		\cite{rasmussenHomeCareCrew2012} & 
+			\yes & 
+			\yes & 
+			\yes & 
+			 & 
+			\yes & 
+			\yes & 
+			\yes \\
+		%
+		\cite{mankowskaHomeHealthCare2014} & 
+			\yes & 
+			 & 
+	  		 & 
+			 & 
+			\yes & 
+			 & 
+			\yes \\
+		%
+		\cite{haddadeneNSGAIIEnhancedLocal2016} & 
+			\yes & 
+			 & 
+			\yes & 
+			 & 
+			\yes & 
+			 & 
+			\yes \\
+		%
+		\cite{aithaddadeneGRASPILSVehicle2016} & 
+			\yes &
+			 & 
+			\yes &
+			 & 
+			\yes & 
+			 & 
+			\yes \\
+		%
+		\cite{lasfargeasSolvingHomeHealth2019} & 
+			\yes & 
+			\yes & 
+			\yes &  
+			 & 
+			\yes & 
+			\yes & 
+			\yes \\
+		%
+		\cite{manavizadehUsingMetaheuristicAlgorithm2020} & 
+			\yes & 
+			\yes & 
+			\yes &  
+			 & 
+			\yes & 
+			\yes & 
+			\yes \\
+		%
+		\cite{entezariDevelopingMathematicalModel2020} & 
+			\yes & 
+			\yes & 
+			\yes &  
+			 & 
+			\yes & 
+			\yes & 
+			\yes \\
+		%
+		\cite{korsahOptimalVehicleRouting2010} & 
+			 & 
+			 & 
+			 & 
+			 & 
+			\yes & 
+			\yes & 
+			 \\
+		%
+		\cite{taoMetaheuristicAlgorithmTransporter2019} & 
+			\yes & 
+			\yes & 
+			\yes & 
+			 & 
+			\yes & 
+			\yes & 
+			 \\
+		%
+		\cite{firatImprovedMIPbasedApproach2012} & 
+			\yes & 
+			 & 
+			\yes & 
+			\yes & 
+			\yes & 
+			\yes & 
+ 			 \\
+		%
+		\cite{pereiraMultiperiodWorkforceScheduling2020} & 
+			\yes & 
+			 & 
+			 & 
+			 & 
+			\yes & 
+			\yes & 
+			 \\
+		%
+		\bottomrule
+	\end{tabular*} 
+	\caption[Precedence and Cooperativity characteristics of selected publications]{%
+		\label{tab:coop-prec-compare}\textit{Precedence and Cooperativity characteristics of selected publications}. %
+		% 
+		Columns of the table contain the following content (enumeratied from left to right): (1) A reference to the publication in question (2) If there is any concept of cooperativity (3) If cooperative task execution is defined between pairs of nodes (4) If cooperative behaviour can include more than two robots (5) If cooperativity is implemented by team building (6) If there is any concept of precedence (7) If precedence relationships are defined between nodes (8) If the precedence formulation includes a minimum and maximum starting time distance %
+		}%
+\end{table}

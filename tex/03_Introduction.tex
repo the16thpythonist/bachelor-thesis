@@ -1,0 +1,74 @@
+\chapter{Introduction} \label{chap:introduction}
+
+\section{Motivation} \label{sec:motivation}
+
+% BRAINSTORMING OF WHAT IS SUPPOSED TO GO INTO THIS SECTION
+% - ARCHES project
+% NORMAL ROBOTS SUCK
+The field of robotics has revolutionized wide branches of modern industry. Crucial tasks, which have been carried out by humans just a century ago are nowadays increasingly populated by robots. They are employed in many assembly, logistics and quality assurance processes throughout various sectors of the industry, such as the production of automobiles.\\
+% RECENTLY INTERSTING DEVELOPMENTS IN MOBILE ROBOTICS
+For a long time the use case of robotics has been limited to stationary task and controlled environments, as is the case in productions halls. Recently there have been substantial improvements in the field of mobile robotics as well. These are partially founded on the recent developments of other fields such as battery technologies, computer vision utilizing machine learning and increased processing power. One such milestone can be seen with the \textit{Spot}\textsuperscript{\textregistered} by Boston Dynamics.\cite{spot} The four-legged robot can walk much like an animal would. It can climb stairs, traverse difficult obstacles and even recover from loss of balance, all while carrying loads. And unlike other robots mainly from research efforts, Spot has been refined enough to actually hit the market as product.\\
+% ADVANTAGES OF MOBILE ROBOTICS FOR EXAMPLE FOR DISASTER INTERVENTION
+With the rise of this new kind of mobile robotics, there will be an entirely new range of possible use cases for an increasingly robotic working force. Industries such as agriculture, forest operations, security and surveillance could be beneficiaries of such developments. But there is an even more important dimension than just replacing jobs which are currently done by human labor. Mobile robotics will pave the way for those new fields which are just out of range for human capabilities all together. This includes for example disaster intervention in areas, where humans could only intervene with immediate danger to their health and life. This would be the case for nuclear meltdowns, forest fires, flashfloods and more.\\ \\
+% ACTUALLY MAKING THE TRANSITION TO SPACE OPERATIONS
+Another field, which is currently outside of human reach is the exploration of space and extraterrestrial planets in particular. This is a field where mobile robotics have already set foot. Humankind already operates the \textit{Mars Rover} on the surface of the red planet. But it's capabilities are still very limited. But repeatedly flying singular, all-powerful robots to the surfaces of other planets would hardly make sense. With this new increase in technological possibilities it would make sense to take the \textit{next step} to harness the potential of robots. The usage of \textit{heterogeneous robotic teams or swarms} would provide several benefits towards just a singular robot. This term describes a team of multiple robots with partially different abilities and properties. This provides the following advantages: Firstly, there is the benefit of multiple agents in general. Multiple tasks, which require different abilities can be completed in parallel, whereas a single robot would most likely have to complete them sequentially. Tying into this is the aspect of redundancy. If one robot malfunctions the other members of the team can still operate, while that one is being repaired or replaced. With a single agent, the whole operation would have to be halted until the error has been resolved. Additionally there is actually an economic benefit as well: With multiple robots a lot of the abilities can be split among them, which allows for the conception of less complex systems in general, which in turn could reduce the cost of the overall operation.\\
+The ARCHES Project initiated by the 'Deutsche Luft- und Raumfahrtbehörde'(DLR) is an example for exactly this attempt to use robotic teams for the exploration of other planets.\\ \\ % more?
+With the benefits of heterogeneous robotic teams of course come new challenges. Aside from the actual robotics perspective there is the entirely new dimension of the coordination to be considered. The main question is 'How to assign the different robots to the specific mission goals to get the best possible result?'. At it's core this is an optimization problem, which requires new algorithmic solutions.
+
+\section{Aim} \label{sec:aim}
+
+The subject of this thesis shall be to investigate the current literature regarding the possible algorithmic solutions for the previously mentioned planning problem for the heterogeneous robotic teams. The simultaneous operation of multiple robots to achieve one common mission goal requires for special kind of coordination. The nature of this coordination has many desirable aspects:
+\begin{itemize}
+\item \textbf{Optimality} Given the model of a closed system, where all information is known in beforehand, it should be possible to find a solution, which is optimal in regards to the objective and constraints of the problem. This optimality is a desirable attribute of a possible solution.
+\item \textbf{Robustness} As in reality, almost every system possesses some aspects of uncertainty, the coordination algorithm and it's solutions should be able to deals with these uncertainties in the best possible way. By including the revelation of new information into the planning process, solutions should be changed effectively to reflect the new circumstances. This could for example be the case for an unexpected robot failure. It's remaining tasks would have to be redistributed effectively among the remaining members of the team.
+\item \textbf{Efficiency} In most real-life applications there is only a limited amount of resources available (e.g time, processing power, energy) to create such a solution. So the algorithm would have to be able to find the best obtainable solution with the least amount of resources.
+\end{itemize}
+All these properties partially conflict with each other. The locally optimal solution might not be the most robust one. The most robust solution will most likely not use the least amount of resources. And the optimal solution will most likely not be acquired in the least amount of time. There will always have to be a trade-off between different algorithmic goals and the extent this trade-off will be dictated by the specific requirements of every application.\\
+Due to the complexity of the problem and the current state of developments, this thesis will be focusing mostly on the aspect of \textbf{efficiency}. The creation of any 'good' solution to such planning problems already provides a serious challenge for algorithmic efforts. Thus this thesis will be mainly concerned with the finding of \textit{relatively good} solutions in a \textit{reasonable time}.\\ \\
+% TALKING ABOUT THE ACTUAL CHALLANGES OF THE PROBLEM
+As far as the nature of this problem goes, there are some aspects, which are of exceptional importance. These aspects are inherently important for the problem and thus have to be considered for every possible algorithmic solution:
+\begin{itemize}
+\item \textbf{Heterogeneity} The most important criteria for the evaluation of any approach is it's capability of handling the inherently heterogeneous nature of the agents. Many of the previously mentioned benefits of the proposed approach stem from exactly this heterogeneity. As this thesis will show, there are many possible degrees to the consideration of heterogeneity. For this investigation, the most important aspect will be the heterogeneity of skills in regards to the accomplishable tasks.
+\item \textbf{Cooperation} An equally important aspect is the cooperation between agents. The ability to cooperate presents one of the major advantages for robotic teams. Individual atomic skills can be composed to solve more complex tasks. In this thesis specifically,  the ability of various agents to cooperatively complete tasks will be of great importance.
+\item \textbf{Precedence} Tying into the idea that many complex tasks can be decomposed into a series of simple simple, atomic steps. This requires a notion of defining task precedence, where certain tasks have to be completed before others are started. This can be seen as another type of indirect cooperation between (different) agents, which has to be considered by possible algorithmic mechanisms.
+\end{itemize} 
+This leads to the following two primary aims of this thesis: The first is to provide an overview of literature about related optimization problems and algorithms, which can be utilized to solve the described coordination problem for heterogeneous robotic teams. This literature review will prioritize the above mentioned aspects as evaluation criteria for possible approaches.\\
+The second aim of this thesis is an exemplary computational investigation of the problem. A promising approach from the literature will be chosen and implemented. This algorithmic solution will the be evaluated in regard to it's handling of the three primary aspects of heterogeneity, cooperation and precedence among other things. As mentioned previously, this evaluation will be done mainly in terms of efficiency.
+
+
+\section{Contribution} \label{sec:contribution}
+
+% How 'confident' can I be here?
+% WHAT ARE MY CONTRIBUTIONS ACTUALLY
+% - Conducting a literature review of related problems and solution approaches. 
+% Especially illustrating how the well studied problem of vehicle routing can 
+% be related to multi-robot coordination, while also pointing out possible 
+% relevant differences.
+% - Presenting an overview of selected publications from VRP and MRT field 
+% and classifying them in regards to their implementation/consideration
+% of the preiously mentioned aspects ...
+% - Conducting a computational study of the efficiency of genetic algorithms 
+% for different scenarios/ sensitivity analysis. Especially the consideration of 
+% multi-precedence and massive cooperation, which are rarely found in the 
+% literature.
+Based on the aim, the main contributions of this thesis are 3-fold:
+\begin{itemize}
+\item Conducting a literature review of related problems and solution approaches. Especially illustrating how the well studied problem of vehicle routing from the domain of operations research can be related to the multi-robot coordination.
+\item Presenting an overview of selected publications from literature. These selected approaches are classified and evaluated in special regards to their implementation/consideration of the previously mentioned aspects of heterogeneity, cooperation and precedence.
+\item Conducting of a computational study of the efficiency of a genetic algorithm approach to the multi robot coordination problem. This investigation puts a special emphasis on the aspects. ´
+\end{itemize}
+
+
+\section{Outline} \label{sec:outline}
+
+This section will provide an outline of the structure of this thesis:
+\begin{description}
+\item[Chapter 2 - Literature Review] tbd
+\item[Chapter 3 - Background] tbd
+\item[Chapter 4 - Implementation of a genetic algorithm] tbd
+\item[Chapter 5 - Results] tbd
+\item[Chapter 6 - Discussion] tbd
+\end{description}
+
+\newpage
+

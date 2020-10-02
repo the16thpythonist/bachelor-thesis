@@ -1,0 +1,255 @@
+\UseRawInputEncoding
+\RequirePackage{setspace}		% Hinzugefügt: Entfernt Warnungen wenn \footnote benutzt wird, Manuel Schwartz 2016.03.20
+
+%%% Abschlussarbeiten am IRS - LaTeX-Vorlage %%%
+% --- %
+% Bei einer englishen Arbeit die nachfolgenden Zeilen vertauscht ein - und auskommentieren
+
+%\documentclass[pdftex,english]{irsdiplom}
+%\usepackage{etoolbox}
+%\newbool{symbol_english}
+%\setbool{symbol_english}{true}
+
+%\documentclass[pdftex]{irsdiplom}
+\documentclass[pdftex,english]{irsdiplom}
+\usepackage{etoolbox}
+\newbool{symbol_english}
+\setbool{symbol_english}{true}
+
+% --- %
+
+% Creates a footnote style rule, which can be used in captions
+\makeatletter
+\def\footnoterule{\\[-1.5mm]  \rule{5cm}{0.1pt} \\}
+\makeatother
+
+
+% Literaturverzeichnis
+\usepackage{bibgerm}
+
+\usepackage[font=scriptsize]{caption}
+
+% Tabellen
+% 28.05.2020
+% this package is for having a sideways table
+\usepackage{rotating}
+% For gray midrules
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+%\usepackage{array}
+\usepackage{tabularx}							% Neues package für Tabellen, Manuel Schwartz 2016.02.18
+\renewcommand\tabularxcolumn[1]{m{#1}}
+\usepackage{supertabular}
+
+% Mathematik
+\usepackage{nicefrac}							% Neues package für Brüche, Manuel Schwartz 2016.02.20
+\usepackage{siunitx}							% Neues package zur Angabe von Maßeinheiten, Manuel Schwartz 2016.03.05
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage{gensymb}
+%\usepackage{theorem}
+%\usepackage[thinspace,thickqspace]{SIunits}
+%\usepackage{trsym} 	% Laplace-Hantel
+
+% Hier können weitere Umgebungen erzeugt werden, z.B. Satz, lemma etc.
+%	\newtheorem{'Aufruf im Quelltext'}{'Name im Quelltext'}['Numerierung auf Ebene: chapter, section, subsection, ...]		% Ergänzt Manuel Schwartz 2016.02.20
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{regel}{Regel}[chapter]
+
+% Grafiken
+%\usepackage{subfigure}						% Geaendert von \package{subfig}: Neues package für Mehrere Grafiken nebeneinander, Manuel Schwartz 2016.02.18
+\usepackage{tikz}
+\usetikzlibrary{external}
+%\tikzexternalize[mode=list and make]			% Beim Einkommentieren werden die Bildausgaben von Tikz unterdrückt (deutlich schnelleres Kompilieren), Oliver Stark 2016.09.02
+
+% Sprache und Schrift
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}	%% Ersetzt das veraltete \package{caption} (Alte Warnung) aus irsdiplom.cls Zeile 1256 bis 1265
+\newcommand{\changefont}[3]{
+\fontfamily{#1}\fontseries{#2}\fontshape{#3}\selectfont}
+% Diese Optionen von Caption machen die Namen (Abbildung, Tabelle) sowie deren Nummer fett und in footnotesize
+%\usepackage[labelfont=bf,textfont=footnotesize]{caption}
+
+% Richtiges Schreiben von Matlab und Simulink (Gerade in Small Caps)
+\newcommand{\Matlab}{{\rm \sc Matlab}}
+\newcommand{\Simulink}{{\rm \sc Simulink}}
+%\newcommand{\initialisiert}{{\rm \sc initialisiert}}
+%\newcommand{\Stromintegration}{{\rm \sc Stromintegration}}
+
+% Worttrennung
+\hyphenation{Strom-integration}
+
+
+
+
+% Quellcode
+%
+% Hier wird die Matlab Syntax für listings eingeführt
+% Syntax:
+%
+% \begin{lstlisting}
+% 	Quellcode direkt aus Matlab hier her kopieren
+%	\end{lstlisting}
+%
+% ---------------------------------------------------
+\usepackage{listings} \lstset{numbers=left, numberstyle=\tiny, numbersep=5pt} \lstset{language=Matlab} 
+% Umlaute und ß für Codeumgebung, Oliver Stark 2016.09.02
+\lstset{basicstyle=\ttfamily}
+\lstset{literate=%
+	{Ö}{{\"O}}1
+	{Ä}{{\"A}}1
+	{Ü}{{\"U}}1
+	{ß}{{\ss}}2
+	{ü}{{\"u}}1
+	{ä}{{\"a}}1
+	{ö}{{\"o}}1
+} 
+
+% Farben
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   		% choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\footnotesize,        					% the size of the fonts that are used for the code
+  breakatwhitespace=false,         			% sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 								% sets automatic line breaking
+  captionpos=b,                    								% sets the caption-position to bottom
+  commentstyle=\color{mygreen},    	% comment style
+  deletekeywords={...},            						% if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          					% if you want to add LaTeX within your code
+  extendedchars=true,              						% lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,                    								% adds a frame around the code
+  keepspaces=true,                 						% keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       				% keyword style
+  language=Octave,                 						% the language of the code
+  morekeywords={*,...},            						% if you want to add more keywords to the set
+  numbers=left,                    									% where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   						% how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, 		% the style that is used for the line-numbers
+  rulecolor=\color{black},         						% if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                						% show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          				% underline spaces within strings only
+  showtabs=false,                  							% show tabs within strings adding particular underscores
+  stepnumber=2,                    							% the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     			% string literal style
+  tabsize=2,                       										% sets default tabsize to 2 spaces
+  title=\lstname                   									% show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+% ---------------------------------------------------
+
+%% Packages "german" und "graphicx" werden bereits mit der Klasse "irsdiplom" geladen
+\graphicspath{{./img/}}	%% Geaendert, Manuel Schwartz 2015.10.13
+%% Einbinden des .tex-files, welches die Angaben wie Titel, Autor, etc. enth"alt.
+%% M"oglichst Leerzeichen im Dateinamen vermeiden! Die Endung .tex wird automatisch erg"anzt.
+\input{tex/Angaben} % Beispiel: \input{Angaben}
+
+
+% =================================================================================================================
+% COMMANDS
+% This file "Commands.tex" contains all the new command definitions, which were written just for this thesis.
+% These commands are for example used in the tables and the mathematics expressions.
+\input{tex/Commands}
+% =================================================================================================================
+
+\begin{document}
+\pagenumbering{roman}	%% Geaendert, Manuel Schwartz 2015.10.13
+\bibliographystyle{geralpha}
+
+\ifthenelse{\boolean{symbol_english}}
+{%
+	\cleardoublepage\pdfbookmark{Front Page}{title}\maketitle % Titelseite den PDF Lesezeichen hinzugefügt	Manuel Schwartz 2016.02.21
+	\sperrvermerk
+	\cleardoublepage\pdfbookmark{Short Description}{}\deckblatt	% Deckblatt den PDF Lesezeichen hinzugefügt	Manuel Schwartz 2016.02.21
+	\erklaerung
+	\cleardoublepage\pdfbookmark{Acknowledgments}{acknowledgment}
+	\input{tex/00_Danksagung}
+	\cleardoublepage\pdfbookmark{Abstract}{abstract}	% Kurzfassung den PDF Lesezeichen hinzugefügt	Manuel Schwartz 2016.02.21
+	\input{tex/01_Kurzfassung}
+}
+{%
+	\cleardoublepage\pdfbookmark{Titelseite}{title}\maketitle % Titelseite den PDF Lesezeichen hinzugefügt	Manuel Schwartz 2016.02.21
+	\sperrvermerk
+	\cleardoublepage\pdfbookmark{Kurzbeschreibung der Aufgabenstellung}{}\deckblatt	% Deckblatt den PDF Lesezeichen hinzugefügt	Manuel Schwartz 2016.02.21
+	%\erklaerung
+	%\cleardoublepage
+	\pdfbookmark{Danksagungen}{Danksagung}	% Kurzfassung den PDF Lesezeichen hinzugefügt	Manuel Schwartz 2016.02.21
+	\input{tex/00_Danksagung}
+	\cleardoublepage\pdfbookmark{Kurzfassung}{Kurzfassung}	% Kurzfassung den PDF Lesezeichen hinzugefügt	Manuel Schwartz 2016.02.21
+	\input{tex/01_Kurzfassung}
+}
+
+
+%\frontmatter % nur bei Klassenoption "book" m"oglich
+\cleardoublepage\pdfbookmark{\contentsname}{toc}\tableofcontents		% Inhaltsverzeichnis den PDF Lesezeichen hinzugefügt	Manuel Schwartz 2016.02.21
+\listoffigures
+\listoftables
+\input{tex/02_Symbolverzeichnis}
+
+%\mainmatter % nur bei Klassenoption "book" m"oglich
+%% F"ur die einzelnen Kapitel empfiehlt es sich eigene TeX-Dateien anzulegen, welche
+%% mittels \input eingebunden werden.
+%% M"oglichst Leerzeichen in den Dateinamen vermeiden! Die Endung .tex wird automatisch erg"anzt.
+%% Beispiel: \input{1_Einleitung}
+
+%% Hauptteil wie gehabt in Arabischen Schriftzeichen, aber mir neu startender Numerierung, Manuel Schwartz 2015.10.13
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\pagestyle{headings}
+
+
+
+%% -----------------------
+%% Beginn der Ausarbeitung
+
+
+\input{tex/03_Introduction}
+
+\input{tex/04_Literature}
+
+\input{tex/05_Theory}
+
+\input{tex/09_Results}
+
+\input{tex/10_Outlook}
+
+%% Ende der Ausarbeitung
+%% -----------------------
+
+
+
+%\backmatter % nur bei Klassenoption "book" m"oglich
+%% -----------------------
+%% Beginn des Anhangs
+\begin{appendix}
+
+\input{tex/99_Anhang}
+
+\end{appendix}
+%% Ende des Anhangs
+%% -----------------------
+
+%%% Danksagung
+%%% In Anlehnung an das IRS-Wiki zwischen Anhänge und Literatur
+\ifthenelse{\boolean{symbol_english}}
+{%
+	%	\cleardoublepage\pdfbookmark{Acknowledgments}{acknowledgment}
+	%	\input{tex/00_Danksagung}
+}
+{%
+	%	\cleardoublepage\pdfbookmark{Danksagungen}{Danksagung}	% Kurzfassung den PDF Lesezeichen hinzugefügt	Manuel Schwartz 2016.02.21
+	%	\input{tex/00_Danksagung}
+}
+%%%
+
+\nocite{*} % Alle Eintr"age im Bib-File in das Literaturverzeichnis mit "ubernehmen
+%\nocite{} % Nur die Eintr"age im Bib-File in das Literaturverzeichnis mit "ubernehmen die auch wirklich genutzt werden
+\bibliography{bib/bibliography} % Name des BIB-Files mit den Literaturdaten %% Geaenderter Pfad, Manuel Schwartz 2015.10.13
+% Empfehlenswertes Programm zum Editieren von .bib-files: JabRef, erh"altlich unter
+% http://jabref.sourceforge.net/
+% Direkter Link zur Version 2.2 f"ur Windows:
+% http://downloads.sourceforge.net/jabref/JabRef-2.2-setup.exe
+
+\end{document}

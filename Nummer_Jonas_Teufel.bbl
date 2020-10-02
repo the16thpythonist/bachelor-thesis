@@ -1,0 +1,657 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{DGHEHBb}
+
+\bibitem[ADMa]{afifi_heuristic_2016}
+{\sc Afifi, Sohaib}, {\sc Duc-Cuong Dang} \btxandlong{}\ {\sc Aziz Moukrim}:
+  {\em Heuristic solutions for the vehicle routing problem with time windows
+  and synchronized visits}.
+\newblock 10(3):511--525.
+\newblock Number: 3.
+
+\bibitem[ADMb]{afifi_simulated_2013}
+{\sc Afifi, Sohaib}, {\sc Duc-Cuong Dang} \btxandlong{}\ {\sc Aziz Moukrim}:
+  {\em A Simulated Annealing Algorithm for the Vehicle Routing Problem with
+  Time Windows and Synchronization Constraints}.
+\newblock \Btxinlong{}\ {\sc Nicosia, Giuseppe} \btxandlong{}\ {\sc Panos
+  Pardalos}\ (\btxeditorslong{}): {\em Learning and Intelligent Optimization},
+  Lecture Notes in Computer Science, \btxpageslong{}\ 259--265. Springer.
+
+\bibitem[AHLP]{ait_haddadene_grasp_2016}
+{\sc Ait~Haddadene, Syrine~Roufaida}, {\sc Nacima Labadie} \btxandlong{}\ {\sc
+  Caroline Prodhon}: {\em A {GRASP} × {ILS} for the vehicle routing problem
+  with time windows, synchronization and precedence constraints}.
+\newblock 66:274--294.
+
+\bibitem[BBV]{baldacci_routing_2008}
+{\sc Baldacci, Roberto}, {\sc Maria Battarra} \btxandlong{}\ {\sc Daniele
+  Vigo}: {\em Routing a Heterogeneous Fleet of Vehicles}.
+\newblock \Btxinlong{}\ {\sc Golden, Bruce}, {\sc S.~Raghavan} \btxandlong{}\
+  {\sc Edward Wasil}\ (\btxeditorslong{}): {\em The Vehicle Routing Problem:
+  Latest Advances and New Challenges}, Operations Research/Computer Science
+  Interfaces, \btxpageslong{}\ 3--27. Springer {US}.
+
+\bibitem[BF]{basnet_milk_nodate}
+{\sc Basnet, Chuda} \btxandlong{}\ {\sc Les Foulds}: {\em Milk
+  {TIanndkuesrtrSyc}-{hAedCulainsegSintutdhye} Dairy}.
+\newblock \btxpagelong{}~6.
+
+\bibitem[BFV]{burckert_holonic_2000}
+{\sc {BÜrckert}, Hans-{JÜrgen}}, {\sc Klaus Fischer} \btxandlong{}\ {\sc Gero
+  Vierke}: {\em Holonic transport scheduling with teletruck}.
+\newblock 14(7):697--725.
+\newblock Number: 7.
+
+\bibitem[BG]{bodin_classification_1981}
+{\sc Bodin, Lawrence} \btxandlong{}\ {\sc Bruce Golden}: {\em Classification in
+  vehicle routing and scheduling}.
+\newblock 11(2):97--108.
+\newblock \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1002/net.3230110204.
+
+\bibitem[BGRT]{bossek_towards_2020}
+{\sc Bossek, Jakob}, {\sc Christian Grimme}, {\sc Günter Rudolph}
+  \btxandlong{}\ {\sc Heike Trautmann}: {\em Towards Decision Support in
+  Dynamic Bi-Objective Vehicle Routing}.
+
+\bibitem[BHK]{badreldin_comparative_2013}
+{\sc Badreldin, Mohamed}, {\sc Ahmed Hussein} \btxandlong{}\ {\sc Alaa Khamis}:
+  {\em A Comparative Study between Optimization and Market-Based Approaches to
+  Multi-Robot Task Allocation}.
+\newblock 2013:e256524.
+\newblock Publisher: Hindawi.
+
+\bibitem[Blo]{blocho_chapter_2020}
+{\sc Blocho, Miroslaw}: {\em Chapter 3 - Exact algorithms for solving rich
+  vehicle routing problems}.
+\newblock \Btxinlong{}\ {\sc Nalepa, Jakub}\ (\btxeditorlong{}): {\em Smart
+  Delivery Systems}, Intelligent Data-Centric Systems, \btxpageslong{}\ 93--99.
+  Elsevier.
+
+\bibitem[BMa]{baldacci_unified_2008}
+{\sc Baldacci, Roberto} \btxandlong{}\ {\sc Aristide Mingozzi}: {\em A unified
+  exact method for solving different classes of vehicle routing problems}.
+\newblock 120(2):347.
+\newblock Number: 2.
+
+\bibitem[BMb]{baldacci_unified_2008-1}
+{\sc Baldacci, Roberto} \btxandlong{}\ {\sc Aristide Mingozzi}: {\em A unified
+  exact method for solving different classes of vehicle routing problems}.
+\newblock 120(2):347.
+
+\bibitem[BMIH]{bischoff_multi-robot_2020}
+{\sc Bischoff, Esther}, {\sc Fabian Meyer}, {\sc Jairo Inga} \btxandlong{}\
+  {\sc Sören Hohmann}: {\em Multi-Robot Task Allocation and Scheduling
+  Considering Cooperative Tasks and Precedence Constraints}.
+
+\bibitem[BRa]{bredstrom_combined_2008}
+{\sc Bredström, David} \btxandlong{}\ {\sc Mikael Rönnqvist}: {\em Combined
+  vehicle routing and scheduling with temporal precedence and synchronization
+  constraints}.
+\newblock 191(1):19--31.
+\newblock Number: 1.
+
+\bibitem[BRb]{bredstrom_combined_2008-1}
+{\sc Bredström, David} \btxandlong{}\ {\sc Mikael Rönnqvist}: {\em Combined
+  vehicle routing and scheduling with temporal precedence and synchronization
+  constraints}.
+\newblock 191(1):19--31.
+\newblock Number: 1.
+
+\bibitem[CGQ]{chene_mixed-initiative_2014}
+{\sc Chéné, Francois}, {\sc Jonathan Gaudreault} \btxandlong{}\ {\sc
+  Claude-Guy Quimper}: {\em A {MIXED}-{INITIATIVE} {SYSTEM} {FOR} {INTERACTIVE}
+  {TACTICAL} {SUPPLY} {CHAIN} {OPTIMIZATION}}.
+\newblock \Btxinlong{}\ {\em {MOSIM} 2014, 10ème Conférence Francophone de
+  Modélisation, Optimisation et Simulation}.
+
+\bibitem[CL]{cordeau_tabu_2001}
+{\sc Cordeau, Jean-François} \btxandlong{}\ {\sc Gilbert Laporte}: {\em A Tabu
+  Search Algorithm For The Site Dependent Vehicle Routing Problem With Time
+  Windows}.
+\newblock 39(3):292--298.
+\newblock Number: 3.
+
+\bibitem[CLPR]{cordeau_scheduling_2010}
+{\sc Cordeau, Jean-François}, {\sc Gilbert Laporte}, {\sc Federico Pasin}
+  \btxandlong{}\ {\sc Stefan Ropke}: {\em Scheduling technicians and tasks in a
+  telecommunications company}.
+\newblock 13(4):393--409.
+
+\bibitem[CS]{castillo_salazar_optimisation_2015}
+{\sc Castillo~Salazar, José~Arturo}: {\em Optimisation models and algorithms
+  for workforce scheduling and routing}.
+\newblock Publisher: University of Nottingham.
+
+\bibitem[CSLSQ]{castillo-salazar_computational_2014}
+{\sc Castillo-Salazar, J.~Arturo}, {\sc Dario Landa-Silva} \btxandlong{}\ {\sc
+  Rong Qu}: {\em Computational study for workforce scheduling and routing
+  problems}.
+
+\bibitem[Cul]{cully_autonomous_2019}
+{\sc Cully, Antoine}: {\em Autonomous skill discovery with quality-diversity
+  and unsupervised descriptors}.
+\newblock \Btxinlong{}\ {\em Proceedings of the Genetic and Evolutionary
+  Computation Conference}, {GECCO} '19, \btxpageslong{}\ 81--89. Association
+  for Computing Machinery.
+
+\bibitem[CW]{campbell_forty_2014}
+{\sc Campbell, Ann~Melissa} \btxandlong{}\ {\sc Jill~Hardin Wilson}: {\em Forty
+  years of periodic vehicle routing}.
+\newblock 63(1):2--15.
+\newblock Number: 1.
+
+\bibitem[CWXC]{chen_multi-robot_2018}
+{\sc Chen, Jianping}, {\sc Jianbin Wang}, {\sc Qijun Xiao} \btxandlong{}\ {\sc
+  Changxing Chen}: {\em A Multi-Robot Task Allocation Method Based on
+  Multi-Objective Optimization}.
+\newblock \Btxinlong{}\ {\em 2018 15th International Conference on Control,
+  Automation, Robotics and Vision ({ICARCV})}, \btxpageslong{}\ 1868--1873.
+
+\bibitem[DGHEHBa]{decerle_hybrid_2019}
+{\sc Decerle, Jérémy}, {\sc Olivier Grunder}, {\sc Amir Hajjam El~Hassani}
+  \btxandlong{}\ {\sc Oussama Barakat}: {\em A hybrid memetic-ant colony
+  optimization algorithm for the home health care problem with time window,
+  synchronization and working time balancing}.
+\newblock 46:171--183.
+
+\bibitem[DGHEHBb]{decerle_memetic_2018}
+{\sc Decerle, Jérémy}, {\sc Olivier Grunder}, {\sc Amir Hajjam El~Hassani}
+  \btxandlong{}\ {\sc Oussama Barakat}: {\em A memetic algorithm for a home
+  health care routing and scheduling problem}.
+\newblock 16:59--71.
+
+\bibitem[DJL{\etalchar{+}}]{desrochers_towards_1999}
+{\sc Desrochers, M.}, {\sc C.~V. Jones}, {\sc J.~K. Lenstra}, {\sc M.~W.~P.
+  Savelsbergh} \btxandlong{}\ {\sc L.~Stougie}: {\em Towards a model and
+  algorithm management system for vehicle routing and scheduling problems}.
+\newblock 25(2):109--133.
+
+\bibitem[DLB]{dutot_technicians_2006}
+{\sc Dutot, Pierre-Francois}, {\sc Alexandre Laugier} \btxandlong{}\ {\sc
+  Anne-Marie Bustos}: {\em Technicians and Interventions Scheduling for
+  Telecommunications}.
+\newblock \btxpagelong{}~7.
+
+\bibitem[DLS]{desrochers_classification_1990}
+{\sc Desrochers, M.}, {\sc J.~K. Lenstra} \btxandlong{}\ {\sc M.~W.~P.
+  Savelsbergh}: {\em A classification scheme for vehicle routing and scheduling
+  problems}.
+\newblock 46(3):322--332.
+
+\bibitem[DR]{dantzig_truck_1959}
+{\sc Dantzig, G.~B.} \btxandlong{}\ {\sc J.~H. Ramser}: {\em The Truck
+  Dispatching Problem}.
+\newblock 6(1):80--91.
+\newblock Number: 1.
+
+\bibitem[Dre]{drexl_synchronization_2012}
+{\sc Drexl, Michael}: {\em Synchronization in Vehicle Routing—A Survey of
+  {VRPs} with Multiple Synchronization Constraints}.
+\newblock 46(3):297--316.
+\newblock Number: 3.
+
+\bibitem[DUAC]{dutta_coalition_2019}
+{\sc Dutta, Ayan}, {\sc Vladimir Ufimtsev}, {\sc Asai Asaithambi}
+  \btxandlong{}\ {\sc Emily Czarnecki}: {\em Coalition Formation for
+  Multi-Robot Task Allocation via Correlation Clustering}.
+\newblock 50(8):711--728.
+\newblock Number: 8 Publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.1080/01969722.2019.1677334.
+
+\bibitem[EA]{elshaer_taxonomic_2020}
+{\sc Elshaer, Raafat} \btxandlong{}\ {\sc Hadeer Awad}: {\em A taxonomic review
+  of metaheuristic algorithms for solving the vehicle routing problem and its
+  variants}.
+\newblock 140:106242.
+
+\bibitem[EGN]{estellon_high-performance_2009}
+{\sc Estellon, Bertrand}, {\sc Frédéric Gardi} \btxandlong{}\ {\sc Karim
+  Nouioua}: {\em High-Performance Local Search for Task Scheduling with Human
+  Resource Allocation}.
+\newblock \Btxinlong{}\ {\sc Stützle, Thomas}, {\sc Mauro Birattari}
+  \btxandlong{}\ {\sc Holger~H. Hoos}\ (\btxeditorslong{}): {\em Engineering
+  Stochastic Local Search Algorithms. Designing, Implementing and Analyzing
+  Effective Heuristics}, Lecture Notes in Computer Science, \btxpageslong{}\
+  1--15. Springer.
+
+\bibitem[EM]{entezari_developing_2020}
+{\sc Entezari, Zahra} \btxandlong{}\ {\sc Masoud Mahootchi}: {\em Developing a
+  mathematical model for staff routing and scheduling in home health care
+  industries: Genetic Algorithm based solution scheme}.
+\newblock 0.
+\newblock Publisher: Sharif University of Technology.
+
+\bibitem[EnAAN]{en-nahli_local_2016}
+{\sc En-nahli, Laila}, {\sc Sohaib Afifi}, {\sc Hamid Allaoui} \btxandlong{}\
+  {\sc Issam Nouaouri}: {\em Local Search Analysis for a Vehicle Routing
+  Problem with Synchronization and Time Windows Constraints in Home Health Care
+  Services}.
+\newblock 49(12):1210--1215.
+\newblock Number: 12.
+
+\bibitem[EVR]{eksioglu_vehicle_2009}
+{\sc Eksioglu, Burak}, {\sc Arif~Volkan Vural} \btxandlong{}\ {\sc Arnold
+  Reisman}: {\em The vehicle routing problem: A taxonomic review}.
+\newblock 57(4):1472--1483.
+\newblock Number: 4.
+
+\bibitem[Fer]{ferrucci_pro-active_2013}
+{\sc Ferrucci, Francesco}: {\em Pro-active Dynamic Vehicle Routing: Real-Time
+  Control and Request-Forecasting Approaches to Improve Customer Service / by
+  Francesco Ferrucci}.
+
+\bibitem[FHa]{fikar_home_2017}
+{\sc Fikar, Christian} \btxandlong{}\ {\sc Patrick Hirsch}: {\em Home health
+  care routing and scheduling: A review}.
+\newblock 77:86--95.
+
+\bibitem[FHb]{firat_improved_2012}
+{\sc Fırat, Murat} \btxandlong{}\ {\sc C.~A.~J. Hurkens}: {\em An improved
+  {MIP}-based approach for a multi-skill workforce scheduling problem}.
+\newblock 15(3):363--380.
+\newblock Number: 3.
+
+\bibitem[Fis]{fisher_chapter_1995}
+{\sc Fisher, Marshall}: {\em Chapter 1 Vehicle routing}.
+\newblock \Btxinlong{}\ {\em Handbooks in Operations Research and Management
+  Science}, \btxvolumelong{}~8 \btxofserieslong{}\ {\em Network Routing},
+  \btxpageslong{}\ 1--33. Elsevier.
+
+\bibitem[Flo]{flood_traveling-salesman_1956}
+{\sc Flood, Merrill~M.}: {\em The Traveling-Salesman Problem}.
+\newblock 4(1):61--75.
+\newblock Number: 1.
+
+\bibitem[FM]{frifita_vns_2020}
+{\sc Frifita, Sana} \btxandlong{}\ {\sc Malek Masmoudi}: {\em {VNS} methods for
+  home care routing and scheduling problem with temporal dependencies, and
+  multiple structures and specialties}.
+\newblock 27(1):291--313.
+\newblock Number: 1 \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1111/itor.12604.
+
+\bibitem[FME]{frifita_general_2017}
+{\sc Frifita, Sana}, {\sc Malek Masmoudi} \btxandlong{}\ {\sc Jalel Euchi}:
+  {\em General variable neighborhood search for home healthcare routing and
+  scheduling problem with time windows and synchronized visits}.
+\newblock 58:63--70.
+
+\bibitem[FTM]{fontaine_human_2020}
+{\sc Fontaine, Pirmin}, {\sc Florian Taube} \btxandlong{}\ {\sc Stefan Minner}:
+  {\em Human solution strategies for the vehicle routing problem: Experimental
+  findings and a choice-based theory}.
+\newblock 120:104962.
+
+\bibitem[FTNH]{fontaine_covariance_2019}
+{\sc Fontaine, Matthew~C.}, {\sc Julian Togelius}, {\sc Stefanos Nikolaidis}
+  \btxandlong{}\ {\sc Amy~K. Hoover}: {\em Covariance Matrix Adaptation for the
+  Rapid Illumination of Behavior Space}.
+
+\bibitem[GALG]{golden_fleet_1984}
+{\sc Golden, Bruce}, {\sc Arjang Assad}, {\sc Larry Levy} \btxandlong{}\ {\sc
+  Filip Gheysens}: {\em The fleet size and mix vehicle routing problem}.
+\newblock 11(1):49--66.
+\newblock Number: 1.
+
+\bibitem[GAW]{golden_10_2002}
+{\sc Golden, Bruce~L.}, {\sc Arjang~A. Assad} \btxandlong{}\ {\sc Edward~A.
+  Wasil}: {\em 10. Routing Vehicles in the Real World: Applications in the
+  Solid Waste, Beverage, Food, Dairy, and Newspaper Industries}.
+\newblock \Btxinlong{}\ {\em The Vehicle Routing Problem}, Discrete Mathematics
+  and Applications, \btxpageslong{}\ 245--286. Society for Industrial and
+  Applied Mathematics.
+
+\bibitem[GLLR]{grenouilleau_set_2019}
+{\sc Grenouilleau, Florian}, {\sc Antoine Legrain}, {\sc Nadia Lahrichi}
+  \btxandlong{}\ {\sc Louis-Martin Rousseau}: {\em A set partitioning heuristic
+  for the home health care routing and scheduling problem}.
+\newblock 275(1):295--303.
+\newblock Number: 1.
+
+\bibitem[GM]{gerkey_formal_2016}
+{\sc Gerkey, Brian~P.} \btxandlong{}\ {\sc Maja~J. Matarić}: {\em A Formal
+  Analysis and Taxonomy of Task Allocation in Multi-Robot Systems:}.
+
+\bibitem[GP]{gendreau_handbook_2019}
+{\sc Gendreau, Michel} \btxandlong{}\ {\sc Jean-Yves Potvin}: {\em Handbook of
+  Metaheuristics / edited by Michel Gendreau, Jean-Yves Potvin}.
+
+\bibitem[GPB{\etalchar{+}}]{gendreau_metaheuristics_2008}
+{\sc Gendreau, Michel}, {\sc Jean-Yves Potvin}, {\sc Olli Bräumlaysy}, {\sc
+  Geir Hasle} \btxandlong{}\ {\sc Arne Løkketangen}: {\em Metaheuristics for
+  the Vehicle Routing Problem and Its Extensions: A Categorized Bibliography}.
+\newblock \Btxinlong{}\ {\sc Golden, Bruce}, {\sc S.~Raghavan} \btxandlong{}\
+  {\sc Edward Wasil}\ (\btxeditorslong{}): {\em The Vehicle Routing Problem:
+  Latest Advances and New Challenges}, Operations Research/Computer Science
+  Interfaces, \btxpageslong{}\ 143--169. Springer {US}.
+
+\bibitem[HGPR]{hojabri_large_2018}
+{\sc Hojabri, Hossein}, {\sc Michel Gendreau}, {\sc Jean-Yves Potvin}
+  \btxandlong{}\ {\sc Louis-Martin Rousseau}: {\em Large neighborhood search
+  with constraint programming for a vehicle routing problem with
+  synchronization constraints}.
+\newblock 92:87--97.
+
+\bibitem[HLP]{haddadene_nsgaii_2016}
+{\sc Haddadene, S. R.~Ait}, {\sc N.~Labadie} \btxandlong{}\ {\sc C.~Prodhon}:
+  {\em {NSGAII} enhanced with a local search for the vehicle routing problem
+  with time windows and synchronization constraints}.
+\newblock 49(12):1198--1203.
+\newblock Number: 12.
+
+\bibitem[JCMP]{jorgensen_matroid_2017}
+{\sc Jorgensen, Stefan}, {\sc Robert~H. Chen}, {\sc Mark~B. Milam}
+  \btxandlong{}\ {\sc Marco Pavone}: {\em The Matroid Team Surviving Orienteers
+  problem: Constrained routing of heterogeneous teams with risky traversal}.
+\newblock \Btxinlong{}\ {\em 2017 {IEEE}/{RSJ} International Conference on
+  Intelligent Robots and Systems ({IROS})}, \btxpageslong{}\ 5622--5629.
+\newblock {ISSN}: 2153-0866.
+
+\bibitem[JDS]{jones_time-extended_2011}
+{\sc Jones, E.~Gil}, {\sc M.~Bernardine Dias} \btxandlong{}\ {\sc Anthony
+  Stentz}: {\em Time-extended multi-robot coordination for domains
+  with intra-path constraints}.
+\newblock 30(1):41--56.
+\newblock Number: 1.
+
+\bibitem[JM]{jebari_selection_nodate}
+{\sc Jebari, Khalid} \btxandlong{}\ {\sc Mohammed Madiafi}: {\em Selection
+  Methods for Genetic Algorithms}.
+\newblock \btxpagelong{}~13.
+
+\bibitem[KBS]{kim_collaborative_2017}
+{\sc Kim, Joseph}, {\sc Christopher~J. Banks} \btxandlong{}\ {\sc Julie~A.
+  Shah}: {\em Collaborative Planning with Encoding of Users' High-Level
+  Strategies}.
+\newblock \Btxinlong{}\ {\em Thirty-First {AAAI} Conference on Artificial
+  Intelligence}.
+
+\bibitem[KC]{kim_application_2000}
+{\sc Kim, Hee-Su} \btxandlong{}\ {\sc Sung-Bae Cho}: {\em Application of
+  interactive genetic algorithm to fashion design}.
+\newblock 13(6):635--644.
+
+\bibitem[Kef]{kefalidou_when_2017}
+{\sc Kefalidou, Genovefa}: {\em When immediate interactive feedback boosts
+  optimization problem solving: A ‘human-in-the-loop’ approach for solving
+  Capacitated Vehicle Routing Problems}.
+\newblock 73:110--124.
+
+\bibitem[KHE]{khamis_multi-robot_2015}
+{\sc Khamis, Alaa}, {\sc Ahmed Hussein} \btxandlong{}\ {\sc Ahmed Elmogy}: {\em
+  Multi-robot Task Allocation: A Review of the State-of-the-Art}.
+\newblock \Btxinlong{}\ {\sc Koubâa, Anis} \btxandlong{}\ {\sc J.Ramiro
+  Martínez-de Dios}\ (\btxeditorslong{}): {\em Cooperative Robots and Sensor
+  Networks 2015}, Studies in Computational Intelligence, \btxpageslong{}\
+  31--51. Springer International Publishing.
+
+\bibitem[KIA{\etalchar{+}}]{kira_indirect_2017}
+{\sc Kira, Akifumi}, {\sc Hidenao Iwane}, {\sc Hirokazu Anai}, {\sc Yutaka
+  Kimura} \btxandlong{}\ {\sc Katsuki Fujisawa}: {\em An indirect search
+  algorithm for disaster restoration with precedence and synchronization
+  constraints}.
+\newblock 9(1):7.
+\newblock Number: 1.
+
+\bibitem[KSD]{korsah_comprehensive_2013}
+{\sc Korsah, G.~Ayorkor}, {\sc Anthony Stentz} \btxandlong{}\ {\sc
+  M.~Bernardine Dias}: {\em A comprehensive taxonomy for multi-robot task
+  allocation:}.
+
+\bibitem[KSDF]{korsah_optimal_2010}
+{\sc Korsah, G.~Ayorkor}, {\sc Anthony Stentz}, {\sc M.~Bernardine Dias}
+  \btxandlong{}\ {\sc Imran Fanaswala}: {\em Optimal Vehicle Routing and
+  Scheduling with Precedence Constraints and Location Choice}.
+\newblock Publisher: Carnegie Mellon University.
+
+\bibitem[LGGM]{lehuede_efficient_2015}
+{\sc Lehuédé, Fabien}, {\sc Philippe Grangier}, {\sc Axel Grimault}
+  \btxandlong{}\ {\sc Renaud Masson}: {\em Efficient handling of
+  synchronization in three vehicle routing problems}.
+\newblock \Btxinlong{}\ {\em Odysseus 2015}, Odyss.
+
+\bibitem[LGS]{lasfargeas_solving_2019}
+{\sc Lasfargeas, Sophie}, {\sc Caroline Gagné} \btxandlong{}\ {\sc Aymen
+  Sioud}: {\em Solving the Home Health Care Problem with Temporal Precedence
+  and Synchronization}.
+\newblock \Btxinlong{}\ {\sc Talbi, El-Ghazali} \btxandlong{}\ {\sc Amir
+  Nakib}\ (\btxeditorslong{}): {\em Bioinspired Heuristics for Optimization},
+  Studies in Computational Intelligence, \btxpageslong{}\ 251--267. Springer
+  International Publishing.
+
+\bibitem[LKS]{lahyani_rich_2015}
+{\sc Lahyani, Rahma}, {\sc Mahdi Khemakhem} \btxandlong{}\ {\sc Frédéric
+  Semet}: {\em Rich vehicle routing problems: From a taxonomy to a definition}.
+\newblock 241(1):1--14.
+\newblock Number: 1.
+
+\bibitem[LRS]{lim_manpower_2004}
+{\sc Lim, A.}, {\sc B.~Rodrigues} \btxandlong{}\ {\sc L.~Song}: {\em Manpower
+  allocation with time windows}.
+\newblock 55(11):1178--1186.
+
+\bibitem[LTX]{liu_adaptive_2019}
+{\sc Liu, Ran}, {\sc Yangyi Tao} \btxandlong{}\ {\sc Xiaolei Xie}: {\em An
+  adaptive large neighborhood search heuristic for the vehicle routing problem
+  with time windows and synchronized visits}.
+\newblock 101:250--262.
+
+\bibitem[LYSX]{liu_bi-objective_2018}
+{\sc Liu, Ming}, {\sc Dapeng Yang}, {\sc Qiang Su} \btxandlong{}\ {\sc Lujun
+  Xu}: {\em Bi-objective approaches for home healthcare medical team planning
+  and scheduling problem}.
+\newblock 37(4):4443--4474.
+\newblock Number: 4.
+
+\bibitem[Man]{mankowska_synchronization_2016}
+{\sc Mankowska, Dorota~Slawa}: {\em Synchronization in Vehicle Routing:
+  Benders’ Decomposition for the Home Health Care Routing and Scheduling
+  Problem}.
+\newblock \Btxinlong{}\ {\sc Kotzab, Herbert}, {\sc Jürgen Pannek}
+  \btxandlong{}\ {\sc Klaus-Dieter Thoben}\ (\btxeditorslong{}): {\em Dynamics
+  in Logistics}, Lecture Notes in Logistics, \btxpageslong{}\ 159--169.
+  Springer International Publishing.
+
+\bibitem[MC]{mouret_illuminating_2015}
+{\sc Mouret, Jean-Baptiste} \btxandlong{}\ {\sc Jeff Clune}: {\em Illuminating
+  search spaces by mapping elites}.
+
+\bibitem[Mey]{meyer_entwicklung_2019}
+{\sc Meyer, Fabian}: {\em Entwicklung eines Planungsalgorithmus zur
+  Sequenzierung und Zuweisung von Aufgaben in Multi - Roboter - Systemen}.
+
+\bibitem[MFAB]{manavizadeh_using_2020}
+{\sc Manavizadeh, N.}, {\sc H.~Farrokhi-Asl} \btxandlong{}\ {\sc
+  P.~Beiraghdar}: {\em Using a metaheuristic algorithm for solving a home
+  health care routing and scheduling problem}.
+\newblock 5(1):27--40.
+\newblock Number: 1.
+
+\bibitem[MKF{\etalchar{+}}]{meignan_review_2015}
+{\sc Meignan, David}, {\sc Sigrid Knust}, {\sc Jean-Marc Frayret}, {\sc Gilles
+  Pesant} \btxandlong{}\ {\sc Nicolas Gaud}: {\em A Review and Taxonomy of
+  Interactive Optimization Methods in Operations Research}.
+\newblock 5(3):17:1--17:43.
+\newblock Number: 3.
+
+\bibitem[MMB]{mankowska_home_2014}
+{\sc Mankowska, Dorota~Slawa}, {\sc Frank Meisel} \btxandlong{}\ {\sc Christian
+  Bierwirth}: {\em The home health care routing and scheduling problem with
+  interdependent services}.
+\newblock 17(1):15--30.
+\newblock Number: 1.
+
+\bibitem[MPR]{marti_handbook_2018}
+{\sc Martí, Rafael}, {\sc Panos~M. Pardalos} \btxandlong{}\ {\sc Mauricio
+  G.~C. Resende}: {\em Handbook of Heuristics / edited by Rafael Martí, Panos
+  M. Pardalos, Mauricio G. C. Resende}.
+
+\bibitem[NCT]{nguyen_tabu_2013}
+{\sc Nguyen, Phuong~Khanh}, {\sc Teodor~Gabriel Crainic} \btxandlong{}\ {\sc
+  Michel Toulouse}: {\em A tabu search for Time-dependent Multi-zone Multi-trip
+  Vehicle Routing Problem with Time Windows}.
+\newblock 231(1):43--56.
+
+\bibitem[NMMG]{nunes_taxonomy_2017}
+{\sc Nunes, Ernesto}, {\sc Marie Manner}, {\sc Hakim Mitiche} \btxandlong{}\
+  {\sc Maria Gini}: {\em A taxonomy for task allocation problems with temporal
+  and ordering constraints}.
+\newblock 90:55--70.
+
+\bibitem[noaa]{noauthor_spot_nodate}
+{\em Spot® {\textbar} Boston Dynamics}.
+
+\bibitem[noab]{noauthor_supporting_2019}
+{\em Supporting Humans in Solving Multi-{UAV} Dynamic Vehicle Routing
+  Problems}.
+\newblock 52(19):359--364.
+\newblock Number: 19 Publisher: Elsevier.
+
+\bibitem[ONBR{\etalchar{+}}]{ouertani_hypermutation_2019}
+{\sc Ouertani, Nasreddine}, {\sc Issam Nouaouri}, {\sc Hajer Ben-Romdhane},
+  {\sc Hamid Allaoui} \btxandlong{}\ {\sc Saoussen Krichen}: {\em A
+  Hypermutation Genetic Algorithm for the Dynamic Home Health-Care Routing
+  Problem}.
+\newblock \Btxinlong{}\ {\em 2019 International Conference on Industrial
+  Engineering and Systems Management ({IESM})}, \btxpageslong{}\ 1--6.
+
+\bibitem[PAM]{pereira_multiperiod_2020}
+{\sc Pereira, Dilson~Lucas}, {\sc Júlio~César Alves} \btxandlong{}\ {\sc
+  Mayron César de~Oliveira Moreira}: {\em A multiperiod workforce scheduling
+  and routing problem with dependent tasks}.
+\newblock 118:104930.
+
+\bibitem[PGM]{pillac_technician_2011}
+{\sc Pillac, Victor}, {\sc Christelle Guéret} \btxandlong{}\ {\sc Andrés
+  Medaglia}: {\em On the Technician Routing and Scheduling Problem}.
+\newblock \Btxinlong{}\ {\sc Gaspero, Luca~Di}, {\sc Andrea Schaerf}
+  \btxandlong{}\ {\sc \{and\}~Thomas Stutzle}\ (\btxeditorslong{}): {\em
+  Metaheuristics International Conference ({MIC}) 2011}, \btxpageslong{}\
+  S2--40--1.
+
+\bibitem[PL]{pinto_supporting_2020}
+{\sc Pinto, Roberto} \btxandlong{}\ {\sc Alexandra Lagorio}: {\em Supporting
+  the decision making process in the urban freight fleet composition problem}.
+\newblock 0(0):1--19.
+\newblock Number: 0 Publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.1080/00207543.2020.1753896.
+
+\bibitem[PR]{prenzel_models_2012}
+{\sc Prenzel, Anna} \btxandlong{}\ {\sc Georg Ringwelski}: {\em Models for
+  Human Computer Interaction in Scheduling Applications}.
+\newblock \Btxinlong{}\ {\em Enterprise Information Systems}, \btxpageslong{}\
+  155--171. Springer, Berlin, Heidelberg.
+
+\bibitem[Rei]{reinelt_tsplibtraveling_1991}
+{\sc Reinelt, Gerhard}: {\em {TSPLIB}—A Traveling Salesman Problem Library}.
+\newblock 3(4):376--384.
+\newblock Number: 4.
+
+\bibitem[RJDL]{rasmussen_home_2012}
+{\sc Rasmussen, Matias~Sevel}, {\sc Tor Justesen}, {\sc Anders Dohn}
+  \btxandlong{}\ {\sc Jesper Larsen}: {\em The Home Care Crew Scheduling
+  Problem: Preference-based visit clustering and temporal dependencies}.
+\newblock 219(3):598--610.
+\newblock Number: 3.
+
+\bibitem[RSY]{ree_two-stage_1996}
+{\sc Ree, Sangbok} \btxandlong{}\ {\sc Bok Sik~Yoon}: {\em A two-stage
+  heuristic approach for the newspaper delivery problem}.
+\newblock 30(3):501--509.
+
+\bibitem[Sol]{solomon_algorithms_1987}
+{\sc Solomon, Marius~M.}: {\em Algorithms for the Vehicle Routing and
+  Scheduling Problems with Time Window Constraints}.
+\newblock 35(2):254--265.
+\newblock Number: 2 Publisher: {INFORMS}.
+
+\bibitem[SR]{sundar_exact_2015}
+{\sc Sundar, Kaarthik} \btxandlong{}\ {\sc Sivakumar Rathinam}: {\em An exact
+  algorithm for a heterogeneous, multiple depot, multiple traveling salesman
+  problem}.
+\newblock \Btxinlong{}\ {\em 2015 International Conference on Unmanned Aircraft
+  Systems ({ICUAS})}, \btxpageslong{}\ 366--371.
+
+\bibitem[TJL{\etalchar{+}}]{tao_metaheuristic_2019}
+{\sc Tao, Ning-Rong}, {\sc Zu-Hua Jiang}, {\sc Jian-Feng Liu}, {\sc Bei-Xin
+  Xia} \btxandlong{}\ {\sc Bai-He Li}: {\em A Metaheuristic Algorithm to
+  Transporter Scheduling for Assembly Blocks in a Shipyard considering
+  Precedence and Cooperating Constraints}.
+
+\bibitem[UGP]{urquhart_increasing_2019}
+{\sc Urquhart, Neil}, {\sc Michael Guckert} \btxandlong{}\ {\sc Simon Powers}:
+  {\em Increasing trust in meta-heuristics by using {MAP}-elites}.
+\newblock \Btxinlong{}\ {\em Proceedings of the Genetic and Evolutionary
+  Computation Conference Companion}, {GECCO} '19, \btxpageslong{}\ 1345--1348.
+  Association for Computing Machinery.
+
+\bibitem[UH]{urquhart_optimisation_2018}
+{\sc Urquhart, Neil} \btxandlong{}\ {\sc Emma Hart}: {\em Optimisation and
+  Illumination of a Real-World Workforce Scheduling and Routing Application
+  ({WSRP}) via Map-Elites}.
+\newblock \Btxinlong{}\ {\em Parallel Problem Solving from Nature – {PPSN}
+  {XV}}, \btxpageslong{}\ 488--499. Springer, Cham.
+
+\bibitem[UHHa]{urquhart_quantifying_2019}
+{\sc Urquhart, Neil}, {\sc Emma Hart} \btxandlong{}\ {\sc William Hutcheson}:
+  {\em Quantifying the Effects of Increasing User Choice in {MAP}-Elites
+  Applied to a Workforce Scheduling and Routing Problem}.
+\newblock \Btxinlong{}\ {\sc Kaufmann, Paul} \btxandlong{}\ {\sc Pedro~A.
+  Castillo}\ (\btxeditorslong{}): {\em Applications of Evolutionary
+  Computation}, Lecture Notes in Computer Science, \btxpageslong{}\ 49--63.
+  Springer International Publishing.
+
+\bibitem[UHHb]{urquhart_using_2020}
+{\sc Urquhart, Neil}, {\sc Emma Hart} \btxandlong{}\ {\sc William Hutcheson}:
+  {\em Using {MAP}-Elites to support policy making around Workforce Scheduling
+  and Routing}.
+\newblock 68(2):110--117.
+\newblock Number: 2 Publisher: De Gruyter Section: at -
+  Automatisierungstechnik.
+
+\bibitem[VCGP]{vidal_heuristics_2013}
+{\sc Vidal, Thibaut}, {\sc Teodor~Gabriel Crainic}, {\sc Michel Gendreau}
+  \btxandlong{}\ {\sc Christian Prins}: {\em Heuristics for multi-attribute
+  vehicle routing problems: A survey and synthesis}.
+\newblock 231(1):1--21.
+\newblock Number: 1.
+
+\bibitem[VG]{vansteenwegen_orienteering_2019}
+{\sc Vansteenwegen, Pieter} \btxandlong{}\ {\sc Aldy Gunawan}: {\em
+  Orienteering Problems: Models and Algorithms for Vehicle Routing Problems
+  with Profits / Pieter Vansteenwegen, Aldy Gunawan}.
+
+\bibitem[VSO]{vansteenwegen_orienteering_2011}
+{\sc Vansteenwegen, Pieter}, {\sc Wouter Souffriau} \btxandlong{}\ {\sc
+  Dirk~Van Oudheusden}: {\em The orienteering problem: A survey}.
+\newblock 209(1):1--10.
+
+\bibitem[YHHLa]{yan_human-machine_2016}
+{\sc Yan, Xue-Ming}, {\sc Han Huang}, {\sc Zhi-Feng Hao} \btxandlong{}\ {\sc
+  Gang Li}: {\em A human-machine cooperative approach for combinatorial
+  optimization problem}.
+\newblock \Btxinlong{}\ {\em 2016 International Conference on Machine Learning
+  and Cybernetics ({ICMLC})}, \btxvolumelong{}~2, \btxpageslong{}\ 838--843.
+\newblock {ISSN}: 2160-1348.
+
+\bibitem[YHHLb]{yan_human-computer_2016}
+{\sc Yan, Xueming}, {\sc Zhifeng Hao}, {\sc Han Huang} \btxandlong{}\ {\sc Gang
+  Li}: {\em Human-computer cooperative brain storm optimization algorithm for
+  the two-echelon vehicle routing problem}.
+\newblock \Btxinlong{}\ {\em 2016 {IEEE} Congress on Evolutionary Computation
+  ({CEC})}, \btxpageslong{}\ 2676--2681.
+
+\bibitem[YJC]{yan_survey_2013}
+{\sc Yan, Zhi}, {\sc Nicolas Jouandeau} \btxandlong{}\ {\sc Arab~Ali Cherif}:
+  {\em A Survey and Analysis of Multi-Robot Coordination}.
+\newblock 10(12):399.
+\newblock Number: 12 Publisher: {SAGE} Publications.
+
+\bibitem[ZS]{zamorano_branch-and-price_2017}
+{\sc Zamorano, Emilio} \btxandlong{}\ {\sc Raik Stolletz}: {\em
+  Branch-and-price approaches for the Multiperiod Technician Routing and
+  Scheduling Problem}.
+\newblock 257(1):55--68.
+\newblock Number: 1.
+
+\end{thebibliography}

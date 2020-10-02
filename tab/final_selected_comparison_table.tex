@@ -1,0 +1,186 @@
+% 28.05.2020
+% For information on the definition of the custom commands, see "tex/Commands.tex"
+\begin{sidewaystable}
+	\tableConfig
+	\setlength{\tabcolsep}{4pt}
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccccccccccccccl}
+		% BEGIN TableHead		
+		\toprule
+		% FirstHeadColumn
+		\multicolumn{2}{l}{} 					&
+		\multicolumn{10}{l}{Primary Criteria} 	&
+		\multicolumn{5}{l}{Secondary Criteria} 	\\
+		\cmidrule(rl){3-12} \cmidrule(rl){13-17}
+		% SecondHeadColumn		
+		\multicolumn{1}{l}{Reference} 			&
+		\multicolumn{1}{l}{Approach} 			&
+		\multicolumn{1}{l}{Optimality} 	&
+		\multicolumn{3}{l}{Cooperativity} 		&
+		\multicolumn{3}{l}{Precedence} 			&
+		\multicolumn{3}{l}{Heterogeneity} 		&
+		\multicolumn{2}{l}{Time windows} 		&
+		\multicolumn{2}{l}{VRP char.} 			&
+		\multicolumn{1}{l}{Instances} 		\\
+		\cmidrule(rl){3-3} \cmidrule(rl){4-6} \cmidrule(rl){7-9} \cmidrule(rl){10-12} \cmidrule(rl){13-14} \cmidrule(rl){15-16} \cmidrule(rl){17-17}
+		\multicolumn{2}{l}{}					&
+		\multicolumn{1}{l}{Global} &
+		\multicolumn{1}{l}{At all} &
+		\multicolumn{1}{l}{Nodes} &
+		\multicolumn{1}{l}{$>2$} &
+		\multicolumn{1}{l}{At all} &
+		\multicolumn{1}{l}{Nodes} &
+		\multicolumn{1}{l}{$\delta_{min},\delta_{max}$?} &
+		\multicolumn{1}{l}{At all} &
+		\multicolumn{1}{l}{Pref.} &
+		\multicolumn{1}{l}{Skills} &
+		\multicolumn{1}{l}{Hard} &
+		\multicolumn{1}{l}{Soft} &
+		\multicolumn{1}{l}{Limited} &
+		\multicolumn{1}{l}{All nodes} &
+		\multicolumn{1}{l}{Size} \\
+		\midrule
+		% END TableHead
+		% 
+		% ------------------------------------------------------------------------
+		%
+		% BEGIN TableContent
+		%		
+		% TEMPLATE
+		% {approach}
+		% {optimal} 	&
+		% {coop} 		& {nodes} 		& {multiple} 		&
+		% {precedence}	& {nodes}		& {delta minmax}	&
+		% {hetero}		& {preferences}	& {skills}			&
+		% {hard TW}		& {soft TW}		&
+		% {limited fl.}	& {all nodes}	&
+		% {size}		\\
+		\cite{bredstromCombinedVehicleRouting2008a} & 
+			MIP heur. & 
+			\nop & 
+			\yes & \yes & \yes & 
+			\yes & \yes & \yes & 
+			\yes & \yes & \nop & 
+			\yes & \yes & 
+			\yes & \yes & 
+			\instanceMedium \\ \sep
+		%%
+		\cite{rasmussenHomeCareCrew2012} & 
+			BnP & 
+			(\yes) & 
+			\yes & \yes & \yes & 
+			\yes & \yes & \yes & 
+			\yes & \yes & \yes & 
+			\yes & \nop & 
+			\yes & \nop &
+			\instanceLarge \\ \sep
+		%%
+		\cite{mankowskaHomeHealthCare2014} & 
+			AVNS & 
+			\nop & 
+			\yes & \nop & \nop &
+			\yes & \nop & \yes & 
+			\yes & \nop & \yes & 
+			\yes & \yes &
+			\yes & \yes & 
+			\instanceLarge \\ \sep	
+		%%
+		\cite{haddadeneNSGAIIEnhancedLocal2016} & 
+			NSGAII & 
+			\nop & 
+			\yes & \nop & \yes & 
+			\yes & \nop & \yes & 
+			\yes & \yes & \yes & 
+			\yes & \nop & 
+			\yes & \yes & 
+			\instanceMedium \\ \sep
+		%%
+		\cite{aithaddadeneGRASPILSVehicle2016} & 
+			GRASPxILS &
+			\nop & 
+			\yes & \nop & \yes & 
+			\yes & \nop & \yes & 
+			\yes & \yes & \yes & 
+			\yes & \nop &
+			\yes & \yes & 
+			\instanceMedium \\ \sep
+		%%
+		\cite{lasfargeasSolvingHomeHealth2019} & 
+			VNS & 
+			\nop &
+			\yes & \yes & \yes &  
+			\yes & \yes & \yes & 
+			\yes & \yes & \yes & 
+			\yes & \yes &
+			\yes & \yes &
+			\instanceLarge \\ \sep
+		%%
+		\cite{manavizadehUsingMetaheuristicAlgorithm2020} & 
+			SA & 
+			\nop &
+			\yes & \yes & \yes &  
+			\yes & \yes & \yes & 
+			\yes & \yes & \yes & 
+			\yes & \yes & 
+			\nop & \yes &
+			\instanceLarge \\ \sep
+		%%
+		\cite{entezariDevelopingMathematicalModel2020} & 
+			GA & 
+			\nop & 
+			\yes & \yes & \yes &  
+			\yes & \yes & \yes & 
+			\yes & \yes & \yes & 
+			\yes & \yes & 
+			\yes & \yes &
+			\instanceMedium \\ \sep
+		%%
+		\cite{korsahOptimalVehicleRouting2010} & 
+			BnP & 
+			\yes & 
+			\nop & \nop & \nop & 
+			\yes & \yes & \nop &
+			\yes & \yes & \yes & 
+			\yes & \yes & 
+			\yes & \yes &
+			\instanceSmall \\ \sep
+		%%
+		\cite{taoMetaheuristicAlgorithmTransporter2019} & 
+			GAxTS & 
+			\nop & 
+			\yes & \yes & \yes & 
+			\yes & \yes & \nop & 
+			\nop & \nop & \nop & 
+			\yes & \yes & 
+			\yes & \yes &
+			\instanceMedium \\ \sep
+		%%
+		\cite{firatImprovedMIPbasedApproach2012} & 
+			constr. Heur. & 
+			\nop & 
+			\yes & \nop & \yes & 
+			\yes & \yes & \nop & 
+			\yes & \nop & \yes & 
+			\nop & \nop & 
+			\yes & \nop &
+			\instanceVeryLarge \\ \sep
+		%%
+		\cite{pereiraMultiperiodWorkforceScheduling2020} & 
+			ACO & 
+			\nop &
+			% footnote here 
+			\yes & \nop & \yes & 
+			\yes & \yes & \nop & 
+			\yes & \nop & \yes & 
+			\nop & \nop &	
+			\yes & \yes & 
+			\instanceMedium \\
+		%%
+		\bottomrule
+		% END TableContent
+	\end{tabular*}
+	\caption[Characteristics summary of selected publications]
+		{ %
+		\label{tab:final_compare} \textit{Characteristics summary of selected publications} %
+		The columns contain the following information (ltr): 1) The reference to the publication in question. 2) An abbreviation of the algorithmic approach used to solve the problem. 3) Whether the approach is able to produce globally optimal solutions. 4) Whether there is a sense of cooperativity at all, which 5) is formulated on a node/task basis and which 6) Is able to support cooperation of more than two agents. 7) Whether precedence is considered, which 8) is defined between nodes/tasks and which 9) is defined using a minium/maximum startung time offset formulation. 10) Whether agent heterogeneity is considered, which presents itself as 11) heterogeneous preferences between different nodes and vehicles and/or as 12) Skill matching of vehicle abilities to task requirements. Whether 13) hard or 14) soft time windows are considered. 15) Whether the fleet size of available vehicles is considered as fixed and 16) Whether the problem formulation includes, that all tasks have to be processed. 17) The size of the biggest considered problem instance, which the approach was able to handle, with S being up to 20 tasks, M being up to 100, L up to 250 and XL up to 800.
+		}
+\end{sidewaystable}

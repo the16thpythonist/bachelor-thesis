@@ -1,0 +1,46 @@
+% 06.06.2020
+% Created this table
+
+% The table head looks a little bit weird with the different column levels. I'll have to ask if this is ok.
+% An idea would be to append another level 2 column at the end "secondary" Which is either travel costs or other and 
+% if the other is not checked then this would imply that there is no sense of heterogeneity.
+
+% Look at this resource if at any point there are problems with the center allignment of the items...
+% https://tex.stackexchange.com/questions/341205/what-is-the-difference-between-tabular-tabular-and-tabularx-environments
+\begin{table}[t]
+	\tableConfig
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccc}
+		% BEGIN TableHead
+		\toprule
+		% FirstHeadRow
+		\multicolumn{1}{l}{} 												&
+		\multicolumn{8}{l}{Heterogeneity} 									\\
+		\cmidrule(rl){2-9}
+		% SecondHeadRow			
+		\multicolumn{1}{l}{Reference} 										&
+		\multicolumn{2}{l}{At all?}											&			
+		\multicolumn{4}{l}{Preferences} 									&
+		\multicolumn{2}{l}{Skill matching} 									\\
+		\cmidrule(rl){2-3} \cmidrule(rl){4-7} \cmidrule{8-9} %
+		% ThirdHeadRow
+		\multicolumn{1}{l}{} &
+		\multicolumn{1}{l}{travel costs} &
+		\multicolumn{1}{l}{other} &
+		\multicolumn{1}{l}{hard} &
+		\multicolumn{1}{l}{soft} &
+		\multicolumn{1}{l}{V to N} &
+		\multicolumn{1}{l}{N to V} &
+		\multicolumn{1}{l}{binary} &
+		\multicolumn{1}{l}{levels} \\
+		\bottomrule
+		% END TableHead
+		%
+		% ------------------------------------------------------------------------------
+		%
+		% BEGIN TableContent
+		
+	\end{tabular*} 
+	\caption[Heterogeneity characteristics of selected publications]{%
+		\label{tab:heterogeneity-compare}% 
+		\textit{Heterogeneity characteristics of selected publications}. Description}
+\end{table}

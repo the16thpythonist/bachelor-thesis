@@ -1,0 +1,114 @@
+% --- %
+
+\ifthenelse{\boolean{symbol_english}}
+	{%
+		\chapter*{Abbreviations and Symbols}\label{symbol}
+		\markboth{Abbreviations and Symbols}{Abbreviations and Symbols}
+		\addcontentsline{toc}{chapter}{Abbreviations and Symbols}
+	}
+	{%
+		\chapter*{Abkürzungen und Symbole}\label{symbol}
+		\markboth{Abkürzungen und Symbole}{Abkürzungen und Symbole}
+		\addcontentsline{toc}{chapter}{Abkürzungen und Symbole}
+	}
+
+% --- %
+
+\begin{supertabular*}{\textwidth}{ll}
+\multicolumn{2}{l}{\bf \Large \ifthenelse{\boolean{symbol_english}}{Abbreviations}{Verwendete Abkürzungen}} \\
+\\
+\hline 
+{\bf \ifthenelse{\boolean{symbol_english}}{Abbreviation}{Abkürzung}}				&		{\bf \ifthenelse{\boolean{symbol_english}}{Meaning}{Bedeutung}} \\
+\hline
+\\ 	
+ACO							& 	Ant colony optimization \\
+AVNS						& 	Adaptive variable neighborhood search \\
+ALNS						& 	Adaptive large neighborhood search \\
+BnB							& 	Branch and bound \\
+BnP							& 	Branch and price \\
+CD							&   Complex dependencies \\
+CP							& 	Constrained programming \\
+GA							& 	Genetic algorithm \\
+HHCP						& 	Home health care problem \\
+IA							&   Instantaneous assignment \\
+ID							&   In-schedule dependencies \\
+IP							& 	Integer programming \\
+MA							& 	Memetic algorithm \\
+ME							&	MAP-elites (multi-dimensional archive of phenotypic elites) \\
+MR							&   Multi-robot tasks \\
+MT							&   Multi-task robots \\
+MIP							& 	Mixed integer programming \\
+MRTA						& 	Multi robot task allocation \\
+ND							&   No dependencies \\
+OP							&   Orienteering problem \\
+PCTSP						&   Price collecting traveling salesperson problem \\
+PTP							&   Profitable tour problem \\
+PVRP						&   Periodic vehicle routing problem \\
+VNS							& 	Variable neighborhood search \\
+VRP 						& 	Vehicle routing problem \\
+VRSP						&   Vehicle routing and scheduling problem \\
+VSP							&   Vehicle scheduling problem \\
+SA							&   Simulated annealing \\
+SR							&   Single-robot tasks \\
+ST							&   Single-task robots \\
+TOP							&   Team orienteering problem \\
+TRSP						&   Technician routing and scheduling problem \\
+TA							&   Time-extended assignment \\
+TS							& 	Tabu search \\
+TSP 						&   Traveling salesman problem \\
+WSRP						& 	Workforce routing and scheduling problem \\
+XD							&	Cross schedule dependencies \\
+\\
+\\
+\\
+\multicolumn{2}{l}{\bf \Large \ifthenelse{\boolean{symbol_english}}{Latin letters}{Lateinische Buchstaben}} \\
+\\
+\hline 
+{\bf Symbol}					&		{\bf \ifthenelse{\boolean{symbol_english}}{Meaning}{Bedeutung}} \\
+\hline
+\\
+t            					& 	Zeit \\
+u          						&  	Eingangsgröße \\
+x											& 	Zustandsgröße \\
+y											&		Ausgangsgröße \\
+\\
+\\
+\\
+\multicolumn{2}{l}{\bf \Large \ifthenelse{\boolean{symbol_english}}{Greek letters}{Griechische Buchstaben}} \\
+\\
+\hline 
+{\bf Symbol}					&		{\bf \ifthenelse{\boolean{symbol_english}}{Meaning}{Bedeutung}} \\
+\hline
+\\
+$\pi$                 &		Kreiszahl \\
+$\sigma(t)$          &		Einheitssprung \\
+$\tau$								&		Zeitkonstante \\
+\\
+\\
+\\
+\multicolumn{2}{l}{\bf \Large \ifthenelse{\boolean{symbol_english}}{Calligraphic and other symbols}{Kalligraphische und sonstige Symbole}} \\
+\\
+\hline 
+{\bf Symbol}					&		{\bf \ifthenelse{\boolean{symbol_english}}{Meaning}{Bedeutung}} \\
+\hline
+\\
+$\mathcal F$          &		Transformation \\
+$\mathbb R$           &		Menge der reellen Zahlen \\
+$\Im$									&		Imaginärteil \\
+$\Re$									&		Realteil \\
+\\
+\\
+\\
+\multicolumn{2}{l}{\bf \Large \ifthenelse{\boolean{symbol_english}}{Indices, exponents and operator names}{Indizes, Exponenten und Operatoren}} \\
+\\
+\hline 
+{\bf Symbol}					&		{\bf \ifthenelse{\boolean{symbol_english}}{Meaning}{Bedeutung}} \\
+\hline
+\\
+abs                 	&		absolut \\
+eff                 	& 	Effektivwert \\
+ref										&		Referenz \\
+
+\end{supertabular*}
+
+\cleardoublepage

@@ -1,0 +1,153 @@
+% 06.06.2020
+% Created this table
+
+% The table head looks a little bit weird with the different column levels. I'll have to ask if this is ok.
+% An idea would be to append another level 2 column at the end "secondary" Which is either travel costs or other and 
+% if the other is not checked then this would imply that there is no sense of heterogeneity.
+
+% Look at this resource if at any point there are problems with the center allignment of the items...
+% https://tex.stackexchange.com/questions/341205/what-is-the-difference-between-tabular-tabular-and-tabularx-environments
+\begin{table}[t]
+	\tableConfig
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccccc}
+		% BEGIN TableHead
+		\toprule
+		% FirstHeadRow
+		\multicolumn{1}{l}{} 									&
+		\multicolumn{7}{l}{Heterogeneity} 									\\
+		\cmidrule(rl){2-8}
+		% SecondHeadRow		
+		\multicolumn{1}{l}{} 										&
+		\multicolumn{1}{l}{} 										&
+		\multicolumn{4}{l}{Preferences} 									&
+		\multicolumn{2}{l}{Skill matching} 									\\
+		\cmidrule(rl){3-6} \cmidrule(rl){7-8} %
+		% ThirdHeadRow
+		\multicolumn{1}{l}{Reference} &
+		\multicolumn{1}{l}{At all?} &
+		\multicolumn{1}{l}{hard} &
+		\multicolumn{1}{l}{soft} &
+		\multicolumn{1}{l}{V to N} &
+		\multicolumn{1}{l}{N to V} &
+		\multicolumn{1}{l}{binary} &
+		\multicolumn{1}{l}{levels} \\
+		\midrule
+		% END TableHead
+		%
+		% ------------------------------------------------------------------------------
+		%
+		% BEGIN TableContent
+		\cite{bredstromCombinedVehicleRouting2008a} & 
+			\yes &
+			\blank &
+			\yes &
+			\blank &
+			\yes &
+			\blank &
+			\blank \\
+		%
+		\cite{rasmussenHomeCareCrew2012} & 
+			\yes & 
+			\blank &
+			\yes &
+			\blank &
+			\yes &
+			\yes &
+			\blank \\
+		%
+		\cite{mankowskaHomeHealthCare2014} & 
+			\yes & 
+			\blank & 
+			\blank &
+			\blank &
+			\blank &
+			\yes &
+			\blank \\
+		%
+		\cite{haddadeneNSGAIIEnhancedLocal2016} & 
+			\yes &
+			\blank &
+			\yes &
+			\blank &
+			\yes &
+			\yes &
+			\blank \\
+		%
+		\cite{aithaddadeneGRASPILSVehicle2016} & 
+			\yes &
+			\blank &
+			\yes &
+			\blank &
+			\yes &
+			\yes &
+			\blank \\
+		%
+		\cite{lasfargeasSolvingHomeHealth2019} & 
+			\yes &
+			\yes &
+			\blank &
+			\yes &
+			\yes &
+			\yes &
+			\blank \\
+		%
+		\cite{manavizadehUsingMetaheuristicAlgorithm2020} & 
+			\yes &
+			\blank &
+			\yes &
+			\blank &
+			\yes &
+			\yes &
+			\blank \\
+		%
+		\cite{entezariDevelopingMathematicalModel2020} & 
+			\yes &
+			\blank &
+			\yes &
+			\blank &
+			\yes &
+			\yes &
+			\blank \\
+		%
+		\cite{korsahOptimalVehicleRouting2010} & 
+			\yes &
+			\blank &
+			\yes &
+			\blank &
+			\blank &
+			\yes &
+			\blank \\
+		%
+		\cite{taoMetaheuristicAlgorithmTransporter2019} & 
+			\yes &
+			\blank &
+			\blank &
+			\blank &
+			\blank &
+			\blank &
+			\blank \\
+		%
+		\cite{firatImprovedMIPbasedApproach2012} & 
+			\yes &
+			\blank &
+			\blank &
+			\blank &
+			\blank &
+			\yes &
+			\yes \\
+		%
+		\cite{pereiraMultiperiodWorkforceScheduling2020} & 
+			\yes &
+			\blank &
+			\blank &
+			\blank &
+			\blank &
+			\yes &
+			\yes \\
+		%
+		\bottomrule
+	\end{tabular*} 
+	\caption[Heterogeneity characteristics of selected publications]{%
+		\label{tab:heterogeneity-compare}% 
+		\textit{Heterogeneity characteristics of selected publications}. Columns of the table contain the following content (ltr): 1) The reference to the publication in question. Whether preferences have been considered as 2) hard constraints or as 3) soft constraints. Whether preferences are considered as 4) A vehicle prefering certain nodes or 5) A node prefering certain vehicles. Wether skill matching is considered as 6) binary (a skill requirement is either fullfilled or not) or as 7) different skill levels}
+\end{table}

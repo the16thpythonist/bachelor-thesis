@@ -1,0 +1,144 @@
+% 06.06.2020
+% I have moved this table from the actual main Literature.tex file to its own file
+
+% While formatting this table I have noticed, that "problem" column is pretty obsolote. It does not really provide any 
+% kind of useful information, since most of these papers do not define a strict problem formulation.
+% I have been thinking to change the column to "problem field" and provide info about how the formulation is 
+% motivated such as "home health care problem" or "worforce scheduling and routing" etc. This would provide more 
+% information than how it is now.
+
+% Look at this resource if at any point there are problems with the center allignment of the items...
+% https://tex.stackexchange.com/questions/341205/what-is-the-difference-between-tabular-tabular-and-tabularx-environments
+\begin{table}[t]
+	\tableConfig
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllrl}
+		% BEGIN TableHead
+		\toprule
+		% FirstHeadRow
+		\multicolumn{2}{l}{Publication} 									&
+		\multicolumn{3}{l}{Characteristics} 									&
+		\multicolumn{2}{l}{Computational tests} 								\\
+		\cmidrule(rl){1-2} \cmidrule(rl){3-5} \cmidrule(rl){6-7}
+		% SecondHeadRow		
+		\multicolumn{1}{l}{Reference} 										&
+		\multicolumn{1}{l}{Year} 										&
+		\multicolumn{1}{l}{Field} 										&
+		\multicolumn{1}{l}{Approach} 										&
+		\multicolumn{1}{l}{Optimal?} 										&
+		\multicolumn{1}{l}{$|N|^{(a)}$} 									&
+		\multicolumn{1}{l}{Instance origin} 									\\
+		\midrule %
+		% END TableHead
+		%
+		% ------------------------------------------------------------------------------
+		%
+		% BEGIN TableContent
+		\cite{bredstromCombinedVehicleRouting2008a} & 
+			2008 & 
+			Home Health Care & 
+			MIP heur. &  
+				& 
+			80 & 
+			random \\
+		%
+		\cite{rasmussenHomeCareCrew2012} & 
+			2012 & 
+			Home Health Care & 
+			BnB & 
+			\yes$^{(b)}$ & 
+			150 & 
+			real world data \\
+		%
+		\cite{mankowskaHomeHealthCare2014} & 
+			2014 & 
+			Home Health Care & 
+			AVNS & 
+				& 
+			300 & 
+			random \\
+		%
+		\cite{haddadeneNSGAIIEnhancedLocal2016} & 
+			2016 & 
+			Home Health Care & 
+			NSGAII & 
+			 & 
+			73 & 
+			\cite{bredstromCombinedVehicleRouting2008a} \\
+		%
+		\cite{aithaddadeneGRASPILSVehicle2016} & 
+			2016 & 
+			Home Health Care & 
+			GRASPxILS & 
+			 & 
+			73 & 
+			\cite{bredstromCombinedVehicleRouting2008a} \\
+		%
+		\cite{lasfargeasSolvingHomeHealth2019} & 
+			2019 & 
+			Home Health Care & 
+			VNS &  
+			 & 
+			300 & 
+			\cite{mankowskaHomeHealthCare2014} \\
+		%
+		\cite{manavizadehUsingMetaheuristicAlgorithm2020} & 
+			2020 & 
+			Home Health Care & 
+			SA &  
+			 & 
+			250 & 
+			random \\
+		%
+		\cite{entezariDevelopingMathematicalModel2020} & 
+			2020 & 
+			Home Health Care & 
+			GA &  
+			 & 
+			50 & 
+			random \\
+		%
+		\cite{korsahOptimalVehicleRouting2010} & 
+			2010 & 
+			Disaster response & 
+			BnP & 
+			\yes & 
+			20 & 
+			random \\
+		%
+		\cite{taoMetaheuristicAlgorithmTransporter2019} & 
+			2019 & 
+			Construction & 
+			GAxTS & 
+			 & 
+			50 & 
+			random \\
+		%
+		\cite{firatImprovedMIPbasedApproach2012} & 
+			2012 & 
+			Technician Scheduling & 
+			Constr. heur. & 
+			 & 
+			800 & 
+			\cite{dutotTechniciansInterventionsScheduling2006} \\
+		%
+		\cite{pereiraMultiperiodWorkforceScheduling2020} & 
+			2020 & 
+			Technician Scheduling & 
+			ACO & 
+			 & 
+			100 & 
+			random \\
+		%
+		\bottomrule
+	\end{tabular*} 
+	\caption[Overview of selected publications]{%
+		\label{tab:initial-compare}% 
+		\textit{Overview of selected publications}. The table shows the following columns enumerated from left to right: (1) A reference to the specific paper, (2) the year it was published, (3) an abbreviation for the name of the problem which was addressed in the paper, (4) the name of the algorithm/approach used to solve the problem, (5) whether or not optimal solutions could be produced with this approach, (6) the number of nodes for the largest studied problem instance and (7) the origin of the problem instances used.%
+\footnoterule
+%
+\hspace*{0.2cm}{$^{(a)}$It is important to note, that the problem complexity is dependent on a multitude of other things beside the number of nodes. Examples would be the number of vehicles and the density of synchronized visits. The parameter for the amount of nodes presented here is only meant to provide a first impression of the problem complexity.}\\ %
+%
+%\hspace*{0.2cm}{$^{(b)}$The "Home Health Care Problem" and other synonymous terms are not consistently representative of a specific problem formulation throughout the literature. Thus all publications dealing with the general problem of home health care have been summarized here.}\\ %
+%
+\hspace*{0.2cm}{$^{(b)}$An optimal algorithm is developed, but to reduce computational times it is extended wit a heuristic clustering method for larger instances, thus loosing optimality.}}
+\end{table}
